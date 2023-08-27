@@ -31,7 +31,7 @@ app.get('/', function (request, response) {
 });
 client.on('ready', () => {
     console.log('ready')
-    client.user.setActivity(`Account Generator`);
+    client.user.setActivity(`Account Generator`); // Change The Status Bot
 });
 
 const commands = [
